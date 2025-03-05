@@ -1,0 +1,81 @@
+/* Основні стилі */
+body {
+    font-family: 'Quicksand', sans-serif;
+    background-color: #f7e4e4;
+    margin: 0;
+    padding: 0;
+    color: #4a4a4a;
+}
+
+header {
+    background-color: #f44336;
+    color: white;
+    text-align: center;
+    padding: 40px 20px;
+}
+
+header h1 {
+    font-size: 3.5em;
+    margin: 0;
+}
+
+header p {
+    font-size: 1.2em;
+    font-weight: 300;
+}
+
+/* Основний контент */
+section {
+    text-align: center;
+    padding: 50px 20px;
+}
+
+h2 {
+    font-size: 2.5em;
+    color: #f44336;
+    margin-bottom: 20px;
+}
+
+p {
+    font-size: 1.2em;
+    line-height: 1.6;
+    margin-bottom: 20px;
+    max-width: 700px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.valentine-img {
+    width: 80%;
+    max-width: 300px;
+    margin-bottom: 30px;
+    border-radius: 15px;
+}
+
+/* Кнопка */
+.button {
+    background-color: #f44336;
+    color: white;
+    font-size: 1.2em;
+    padding: 15px 30px;
+    text-decoration: none;
+    border-radius: 25px;
+    display: inline-block;
+    transition: background-color 0.3s ease;
+}
+
+.button:hover {
+    background-color: #d32f2f;
+}
+
+/* Footer */
+footer {
+    background-color: #f44336;
+    color: white;
+    text-align: center;
+    padding: 15px;
+    font-size: 1em;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
